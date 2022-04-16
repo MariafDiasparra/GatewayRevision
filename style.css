@@ -1,0 +1,71 @@
+*{
+  font-family:"Garamond",Helvetica,serif;
+  margin:0;
+  padding:0;
+}
+
+
+nav{
+  background-color: #f2e3e3;
+  text-align: center;
+  height:50px;
+  /*had to manually adjust the height because auto was too thin */
+}
+ul{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  top: 20%;
+  /*text align center didn't work and top 20 did */
+}
+li{
+  display: inline;
+  padding: 10px;
+  margin: 20px;
+
+  
+}
+.hero-image{
+ background-image:  url("https://a.storyblok.com/f/53624/4096x1260/0321536d36/galapagos-islands_4096x1260.jpg") ;
+  height: 500px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*cover fits the whole img :)*/
+  
+}
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 17.5%;
+  font-size: 40px;
+}
+h1{
+  text-align: center;
+  background-color: #f2e3e3;
+  padding:50px;
+}
+body{
+  background-color: #4f97a1;
+}
+
+footer {
+  background-color:#f2e3e3;
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  bottom:0;
+}
+.footertext{
+  display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 28%;
+    
+}
+.logo{
+  height:20px;
+   padding: 5px;
+}
